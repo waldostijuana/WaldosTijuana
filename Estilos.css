@@ -1,0 +1,172 @@
+body{
+	background: url("fondo.jpg");
+}
+
+h1{
+	font-size:	25px;
+	font-style: Tahoma;
+	text-align: center;
+	color: #000000;
+}	
+p{
+	font-size: 5x;
+	font-style: Tahoma;
+	Text-align: Center;
+	color: #7D3C98;
+}
+
+table{
+	border-color: #000000;
+	font-size: 15 px;
+	font-style: Tahoma;
+	text-align: center;
+	border:5px;
+	width: 60%;	
+}
+
+th{
+	text-align: center;
+	color: #000000;
+	width: 25%;
+}
+
+td{
+	text-align: center;
+	background: #E48B09;
+}
+
+p{
+	font-size: 15px;
+	color: 000000;
+	font-style: Tahoma
+}
+
+.sin{
+	border-style: transparent;
+	border: 0;
+	background-color: transparent;
+}
+
+.tab{
+	width: 30%;
+	height:20%;
+	border: 1;
+	border-color: black;
+}
+
+.img{
+	width: 300;
+	height: 250;
+}	
+
+.img2{
+	width: 300;
+	height: 250;
+}
+
+.pimg{
+	width: 300;
+	height: 250;
+}
+
+.div1{
+	border: 1px solid black;
+	background: linear-gradient(to bottom right, #5df41f,#f41f1f);
+	border-radius:5px
+}
+
+.div2{
+	background: linear-gradient(to bottom right, #5df41f,#217fbc);
+	border: 1px solid black;
+	border-radius:5px
+}
+
+.div3{
+	background: linear-gradient(to bottom right, #5df41f,#9421bc);
+	border: 0px solid black;
+	border-radius:5px
+}
+
+.div4{
+	background: linear-gradient(to bottom right, #5df41f,#59a284 );
+	border: 1px solid black;
+	border-radius: 20px
+}
+
+.caja{ 
+	height:350px;
+	width:300px;
+	border: 1px solid #85DC03;
+	background: #679911;
+	margin: 5px;
+	color: black;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	display: inline-block;
+}
+
+.caja:hover{
+			/*colocar sombra div*/
+			/*	 x y Radio Color*/
+	 box-shadow: 0 0 10px red;
+	/* Cambiar tamaño de escala del div*/
+	 transform: scale(1.3);
+}
+
+.caja-texto{
+	padding-bottom: 5px;
+	padding-top: 2px;
+	font-size:25px;
+	color: green;
+	font-weight: bold;
+}
+
+.texto-adicional{
+	padding-top: 5px;
+	font-size: 25px;
+}
+
+.navegacion{
+		display:flex;
+		height:125px;
+}
+.navegacion-item{
+	flex: 1;
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	display: flex;
+	transition: flex-grow 1.5s;
+	justify-content: center;
+	align-items: center;
+}
+	
+.navegacion-item:hover{
+	flex-grow:3;
+}
+
+.navegacion-item:nth-child(1){
+background: #e3ea16;
+}
+.navegacion-item:nth-child(2){
+background: #ea1616;
+}
+.navegacion-item:nth-child(3){
+background:#33ea16;
+}	
+.navegacion-item:nth-child(4){
+background: #ffffff;
+}
+
+@font-face{
+	font-family:"kasup";
+	src: url(honey.ttf);
+}
+
+#fuente-kasup{
+	font-family:"kasup";
+}
+
+#fuente-google{
+font-family: 'Whisper', cursive;
+}
